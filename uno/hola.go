@@ -12,5 +12,6 @@ func main() {
 	fmt.Println("Hello world!" + p)
 	fmt.Println(&p)
 	fmt.Println(stringutil.Name, stringutil.LastName)
+	fmt.Println(stringutil.Testy())
   conversion.Convert()
 }
